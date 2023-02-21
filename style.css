@@ -2,6 +2,11 @@ body {
     background-color: lightgray;
 }
 #pad {
-    width: 960px;
-    height: 960px;
+    height: 80vh;
+    width: 80vh;
+    position: absolute;
+    background-color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
